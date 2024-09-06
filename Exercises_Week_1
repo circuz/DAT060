@@ -97,5 +97,22 @@ c: { 1, 6, 11, 16, ... }
 
 2.
 a: { x €N | 0 < x < 21 and x divisible by 4 };
-b: { a,b,c €{0, 1} | abc }:
+b: { a,b,c €{0, 1} | abc };
+c: { x €N | square root of x €N};
+
+3.
+AxB: { ap, bp, cp, aq, bq, cq };
+A²: { aa, ba, ca, ab, bb, cb, ac, bc, cc };
+B³: { ppp, ppq, pqp, pqq, qpp, qpq, qqp, qqq};
+
+4.
+a: False, True
+b: True, False
+c: True, True
+d: True
+e: False
+f: True, False
+g: False, True
+
+5.
 
